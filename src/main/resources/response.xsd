@@ -1,0 +1,9 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:complexType name="WorkerResponse">
+        <xsd:sequence>
+            <xsd:element name="stringList" block="extension"
+                         minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
+            <xsd:element name="Id" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>
